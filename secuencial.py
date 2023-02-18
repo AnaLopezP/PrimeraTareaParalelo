@@ -10,3 +10,11 @@ def links(url):
     sleep(duracion)
     print('Termiunado', url, 'Tiempo', duracion, 's')
     return url, duracion
+
+#Añadimos las urls con su duracion de procesamiento en una lista
+salida = []
+for url in urls:
+    resultado = links(url)
+    salida.append(resultado)
+
+    
