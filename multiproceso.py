@@ -13,11 +13,11 @@ def links(url):
     return url, duracion
 
 if __name__ == '__main__':
-    piscina = Pool(processes = 4)
-    datos = piscina.map(links, urls)
+    piscina = Pool(processes = 4) #Como tenemos 4 procesos y 5 urls, primero hará las 4 primeras a la vez, y luego la última que queda (como por lotes)
+    datos = piscina.map(links, urls) #guarda la salida de cada llamada a la funcion
 
-    piscina.close()
-    print()
+    piscina.close() #cerramos los procesos
+    print() #Espacio
 
-    for row in datos:
+    for row in datos: #printeamos los datos almacenados en datos 
         print(row)
