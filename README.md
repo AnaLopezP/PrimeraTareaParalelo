@@ -56,4 +56,5 @@ if __name__ == '__main__':
        
 ```
 Las capturas del resultado:
+
 ![Captura Secuencial](Secuencial Captura.png)
