@@ -56,5 +56,11 @@ if __name__ == '__main__':
        
 ```
 Las capturas del resultado:
+Captura secuencial
+![Captura Secuencial](Secuencial_Captura.png)
+Captura Multiproceso
+![Captura Multiproceso](Multiproceso_Captura.png)
 
-![Captura Secuencial](Secuencial Captura.png)
+
+
+
