@@ -55,3 +55,5 @@ if __name__ == '__main__':
         print(row)
        
 ```
+Las capturas del resultado:
+![Captura Secuencial](Secuencial Captura.png)
